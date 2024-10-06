@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIGHTTALE - Play Now</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function loadGame() {
+            document.getElementById('game-frame').style.display = 'block';
+            document.getElementById('play-button').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>NIGHTTALE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Back to Games</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="game-container">
+            <img src="nighttale-thumb.jpg" alt="NIGHTTALE Thumbnail">
+            <h2>Play NIGHTTALE Now!</h2>
+            <button id="play-button" onclick="loadGame()">Play Now</button>
+            <p>NIGHTTALE is an epic web-based adventure game currently in beta. Explore ruins, solve puzzles, and immerse yourself in a world like no other.</p>
+            <iframe id="game-frame" src="https://html-classic.itch.zone/html/10507600/index.html" style="display:none; width: 100%; height: 500px; border: none;"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2018 Totally Real Games. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
