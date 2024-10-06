@@ -86,3 +86,7 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
+img:hover {
+    transform: scale(1.05,1.05);
+}
