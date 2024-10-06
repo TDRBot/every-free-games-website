@@ -2,21 +2,25 @@
     {
         "title": "NIGHTTALE",
         "url": "!game-1.html",
-        "description": "NIGHTTALE is an epic web-based adventure game currently in beta. Explore ruins, solve puzzles, and immerse yourself in a world like no other."
+        "description": "NIGHTTALE is an epic web-based adventure game currently in beta. Explore ruins, solve puzzles, and immerse yourself in a world like no other.",
+        "image": "/every-free-games-website/images/NighttaleThumbnail.png"
     },
     {
         "title": "Random Game #1",
         "url": "game1.html",
-        "description": "Best game ever. Totally not just a placeholder!"
+        "description": "Best game ever. Totally not just a placeholder!",
+        "image": "/every-free-games-website/images/Game1Thumbnail.png"
     },
     {
         "title": "Random Game #2",
         "url": "game2.html",
-        "description": "More exciting than watching paint dry!"
+        "description": "More exciting than watching paint dry!",
+        "image": "/every-free-games-website/images/Game2Thumbnail.png"
     },
     {
         "title": "Random Game #3",
         "url": "game3.html",
-        "description": "You won't believe how mediocre this game is!"
+        "description": "You won't believe how mediocre this game is!",
+        "image": "/every-free-games-website/images/Game3Thumbnail.png"
     }
 ]
