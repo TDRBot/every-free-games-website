@@ -54,23 +54,24 @@
                 displayGames(data); // Initially display all games
             });
 
-        // Function to display games in the grid
-        function displayGames(games) {
-            const gamesGrid = document.getElementById('games-grid');
-            gamesGrid.innerHTML = ''; // Clear existing content
+// Function to display games in the grid
+function displayGames(games) {
+    const gamesGrid = document.getElementById('games-grid');
+    gamesGrid.innerHTML = ''; // Clear existing content
 
-            games.forEach(game => {
-                const gameCard = document.createElement('div');
-                gameCard.className = 'game-card';
-                gameCard.innerHTML = `
-                    <img src="${game.url.replace('.html', '-thumb.jpg')}" alt="${game.title}">
-                    <h3>${game.title}</h3>
-                    <p>${game.description}</p>
-                    <a href="${game.url}">Play Now</a>
-                `;
-                gamesGrid.appendChild(gameCard);
-            });
-        }
+    games.forEach(game => {
+        const gameCard = document.createElement('div');
+        gameCard.className = 'game-card';
+        gameCard.innerHTML = `
+            <img src="${game.image}" alt="${game.title}">
+            <h3>${game.title}</h3>
+            <p>${game.description}</p>
+            <a href="${game.url}">Play Now</a>
+        `;
+        gamesGrid.appendChild(gameCard);
+    });
+}
+
 
         // Function to search games
         function searchGames() {
