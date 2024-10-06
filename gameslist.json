@@ -1,0 +1,22 @@
+[
+    {
+        "title": "NIGHTTALE",
+        "url": "nighttale.html",
+        "description": "NIGHTTALE is an epic web-based adventure game currently in beta. Explore ruins, solve puzzles, and immerse yourself in a world like no other."
+    },
+    {
+        "title": "Random Game #1",
+        "url": "game1.html",
+        "description": "Best game ever. Totally not just a placeholder!"
+    },
+    {
+        "title": "Random Game #2",
+        "url": "game2.html",
+        "description": "More exciting than watching paint dry!"
+    },
+    {
+        "title": "Random Game #3",
+        "url": "game3.html",
+        "description": "You won't believe how mediocre this game is!"
+    }
+]
